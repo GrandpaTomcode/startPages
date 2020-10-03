@@ -1,0 +1,40 @@
+.tileDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 350px;
+  height: 250px;
+  border-radius: 7px;
+  background-color: #222831;
+}
+.tileDiv h3 {
+  margin: 15px;
+}
+.weatherStyle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.weatherContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.iconDiv {
+  display: flex;
+  flex-direction: column;
+}
+.weatherDataDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.iconDiv i {
+  color: #ff6363;
+  margin: 10px;
+}
